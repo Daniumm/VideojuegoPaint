@@ -43,9 +43,9 @@ def drawCircle(start, end):
     down()
     begin_fill()
 
-    for count in range(14):
-        forward((end.x - start.x)/2)
-        left(25)
+    for count in range(36):
+        forward((end.x - start.x)/8)
+        left(10)
 
     end_fill()
 
