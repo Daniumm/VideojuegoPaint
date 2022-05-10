@@ -37,7 +37,7 @@ def square(start, end):
 
 
 def drawCircle(start, end):
-    """Draw square from start to end."""
+    """Draw square from start to end lll"""
     up()
     goto(start.x, start.y)
     down()
@@ -69,6 +69,8 @@ def rectangle(start, end):
 
 def triangle(start, end):
     """Draw triangle from start to end."""
+
+    
     pass  # TODO
 
 
@@ -106,3 +108,4 @@ onkey(lambda: store('shape', drawCircle), 'c')
 onkey(lambda: store('shape', rectangle), 'r')
 onkey(lambda: store('shape', triangle), 't')
 done()
+
