@@ -2,7 +2,7 @@
 Juego: Paint
 
 Programador 1: Daniel Alejandro Martinez Rosete
-Programador 2: Andrés
+Programador 2: Andrés Eugenio Martínez Sánchez 
 
 Fecha:09/05/22
 
