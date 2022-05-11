@@ -37,7 +37,7 @@ def square(start, end):
 
 
 def drawCircle(start, end):
-    """Draw circle from start to end"""
+    #Se hace algo parecido al cuadrado pero con el lado y el ángulo ajustado 36 veces 
     up()
     goto(start.x, start.y)
     down()
@@ -51,7 +51,7 @@ def drawCircle(start, end):
 
 
 def rectangle(start, end):
-    """Draw rectangle from start to end."""
+    #Aqui se usa la misma lógica que el cuadrado pero se dibujan los lados normales y luego los lados pequeños a la mitad 2 veces
     up()
     goto(start.x, start.y)
     down()
